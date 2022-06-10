@@ -1,0 +1,202 @@
+:root {
+    --brand-color-1: rgba(117, 117, 117, 1);
+    --brand-color-2: rgba(33, 33, 33, 1);
+    --brand-text-1: Roboto, sans-serif;
+    --brand-text-2: Raleway, sans-serif;
+    --bg-color-1: rgba(255, 255, 255, 1);
+    --bg-color-2: rgba(47, 48, 58, 1);
+}
+
+/* body */
+body {
+    font-family: var(--brand-text-1);
+    letter-spacing: 0.03em;
+    color: var(--brand-color-1);
+    background-color: var(--bg-color-1);
+}
+
+ /* top line */
+.top-line a {
+    text-decoration: none;
+}
+
+.top-line ul {
+    list-style-type: none;
+}
+
+/* WebStudio */
+.top-line .logo {
+    font-family: var(--brand-text-2);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 1);
+}
+
+.logo span {
+    color: rgba(33, 150, 243, 1);
+}
+
+/* site-nav */
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-2);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+
+.site-adress a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-1);
+}
+
+.site-adress a:hover,
+.site-adress a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+
+/* main */
+.hat {
+    background-color: var(--bg-color-2);
+}
+
+.hat h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hat button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(33, 150, 243, 1);
+    cursor: pointer;
+}
+    
+/* особенности */
+.features ul {
+    list-style-type: none;
+}
+
+.features h2 {
+    display: none;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--brand-color-2);
+}
+
+.features p {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* чем мы занимаемся */
+.works ul {
+    list-style-type: none;
+}
+
+.works h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--brand-color-2);
+}
+
+/* наша команда */
+.team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.team ul {
+    list-style-type: none;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--brand-color-2);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--brand-color-2);
+
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+
+}
+
+/* footer */
+.footer {
+    background-color: var(--bg-color-2);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer .logo {
+    font-family: var(--brand-text-2);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer li {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: rgba(33, 150, 243, 1);
+}
+
+
+
